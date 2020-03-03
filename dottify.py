@@ -4,7 +4,7 @@ chunknum = 0
 try:
     chunknum = int(sys.argv[1])
 except:
-    print("Error: no grid size specified by user")
+    print("Usage: python3 dottify.py [dot width]")
     exit()
 pic = picture2.Picture("cat.bmp")
 
@@ -14,7 +14,7 @@ newpic = picture2.Picture(width, height)
 
 
 if chunknum > width or chunknum > height:
-    print("Error: the given number of grids is too large")
+    print("Can't fit a dot of size ", chunknum)
     exit()
 
 wchunks = width//chunknum
@@ -23,7 +23,7 @@ for i in range(0, width, wchunks):
     for j in range(0, height, hchunks):
         r, g, b = pic.getPixelColor(i, j)
         newpic.setFillColor(r, g, b)
-        newpic.drawCircleFill(i+wchunks/2, j+wchunks/2, wchunks/2)
+        newpic.drawCircleFill(i+wchunks/2, j+hchunks/2, wchunks)
 newpic.display()
 input("Press any key to close: ")
     
