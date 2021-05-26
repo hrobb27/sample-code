@@ -1,4 +1,6 @@
-#NOTE: I, HAMISH ROBB, DID NOT WRITE ANYTHING BELOW THESE COMMENTS
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# IMPORTANT: I, HAMISH ROBB, DID NOT WRITE ANYTHING BELOW THESE COMMENTS
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 #This code was entirely developed by the Oberlin College Computer Science department circa 2018
 #This file is included for the sake of functionality for the other scripts
 import math
