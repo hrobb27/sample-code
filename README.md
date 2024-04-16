@@ -1,5 +1,5 @@
 # Image manipulation
-
+# [note 4/16/24: this is really old code from my 2nd year in undergrad. No longer relevant]
 hueshift.py:
 
 This program takes in a number that is used to manipulate the RGB values in the given image. In this implementation, there are two core functions. The first converts from RGB to HSV, a color space in which colors are arranged around the radius of a cone with lightness and saturation controlled by the theoretical coordinates within the cone. This gives us direct access to the hue value of each pixel. The second function converts HSV back into RGB, which is what the picture module uses.
